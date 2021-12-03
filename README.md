@@ -1,6 +1,6 @@
-# imp
-# login 
-# registration
-# ajax
-# jQuery
+#imp
+#login 
+#registration
+#ajax
+#jQuery
 #javascript
