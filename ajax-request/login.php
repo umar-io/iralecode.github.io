@@ -20,8 +20,8 @@ if($result > 0){
         $hash_pass = $row['password'];
         $token = $row['user_token'];
     }
-    $password_ver = password_verify($passkey, $hash_pass);
-    if ($password_ver == 1) {
+    $password_ver === password_verify($passkey, $hash_pass);
+    if ($password_ver = 1) {
         # code...
         echo "true";
         $_SESSION['user_token'] = $token;  
